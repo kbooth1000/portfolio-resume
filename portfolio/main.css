@@ -1,0 +1,20 @@
+
+
+
+html {
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #444;
+}
+
+.container {
+	background: #a8bcc4;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
