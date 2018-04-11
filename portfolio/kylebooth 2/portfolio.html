@@ -120,7 +120,7 @@
         $(document).ready(function () {
             let elementPosition = $('header').offset();
             $(window).scroll(function () {
-                if ($(window).scrollTop() > elementPosition.top) {
+                if ($(window).scrollTop() > (elementPosition.top-10)) {
                     $('header').css({
                         'position': 'fixed',
                         'margin-top': '0px'
